@@ -44,51 +44,6 @@ This is the **upgraded and most stable version** designed to run smoothly on **m
 
 ## 📁 Project Structure
 
-# 🚀 Task 4 — Object Detection & Tracking System  
-### CodeAlpha Artificial Intelligence Internship  
-### Developed by: **Sathvika Bogam**
-
-This project implements a **real-time Object Detection + Tracking System** using:
-
-- **YOLOv8 (Ultralytics)** for object detection  
-- **Custom SimpleTracker (IoU-based)** for object tracking  
-- Supports **Webcam**, **Video files**, and **Single Image input**  
-- Exports results to **CSV**, saves **output video**, displays **FPS**, and shows **Tracking IDs**
-
-This is the **upgraded and most stable version** designed to run smoothly on **macOS** using **Python 3.11**.
-
----
-
-## ⭐ Features
-
-### 🔍 **Object Detection**
-- Detects **ALL 80 COCO classes**  
-- Accurate bounding boxes  
-- Class name + confidence displayed  
-- Model auto-download support
-
-### 🎯 **Object Tracking**
-- Assigns unique **Track IDs**
-- Uses a lightweight **IOU-based tracker**
-- No external installations needed (works offline)
-- Stable tracking for multiple objects
-
-### 🎦 **Modes Supported**
-| Mode | Description |
-|------|-------------|
-| **Webcam Mode** | Real-time detection & tracking |
-| **Video Mode** | Detect objects in any `.mp4` file |
-| **Image Mode** | Detect objects in a single image |
-
-### 💾 **Output Features**
-- Saves processed video as: `detections_output.mp4`
-- Exports object tracking data to: `detection_results.csv`
-- Shows **FPS** on screen
-- Clean and readable bounding box labels
-
----
-
-## 📁 Project Structure
 
 Task4_ObjectDetection/
 │
